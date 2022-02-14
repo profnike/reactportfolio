@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 51, 51);
+}
+.home h1{
+    color: rgb(151, 148, 148);  
+}
+.homebody h1{
+ color: white;
+  font-size: 5rem; 
+ 
+}
+.homebody h2{
+    font-size: 5rem;
+    color: teal;
+}
+.homebody .job{
+    font-size: 2rem;
+    color: white;
+}
+.homebody .likes{
+    font-size: 1.5rem;
+    color: teal;
+    margin-top: 3rem;
+}
+.homebody{
+    background-color: rgb(53, 51, 51);
+    margin-top: 25vh;
+    display: flex;
+   justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  text-align: left;
+   height: 100vh;
+   width: 100%;
+  
+}
+.homebody-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+   
+   width: 600px;
+   
+}
+.circle{
+    border-radius: 100%;
+    /* width: 300px;
+    height: 300px; */
+    /* border: 2px solid white; */
+   
+    
+    animation: shine 5s infinite linear;
+  
+
+}
+.circleDiv{
+    margin-right: 6rem;
+    width: 35%;
+   
+    display: flex;
+    justify-content: center;
+}
+.code-illus-div{
+    animation: divillus 5s infinite linear;
+}
+.code-illus-body{
+    animation: divillus 5s infinite linear;
+}
+.code-illus-p{
+    animation: divillus 5s infinite linear;
+}
+.code-illus-section{
+    animation: divillus 5s infinite linear;
+}
+
+@keyframes shine{
+    0%{
+        /* transform:scale(1); */
+       background-color: teal;
+       width: 150px;
+       height: 150px;
+       font-size: 1rem;
+       
+    }
+    25%{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(50, 197, 197);
+        font-size: 1.5rem;
+        
+    }
+    
+    50%{
+        
+        /* transform: translate(-40px) scale(0.95); */
+        width: 250px;
+        height: 250px;
+        background-color: grey;
+        font-size: 2rem;
+    }
+    
+    75%{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(92, 238, 238);
+        font-size: 1.5rem;
+    }
+   
+    100%{
+        width: 150px;
+        height: 150px;
+        background-color: rgb(92, 238, 238);
+        font-size: 1rem;
+       
+    }
+
+}
+@keyframes divillus{
+    0%{
+      
+       opacity: 0;
+       
+    }
+    25%{
+      opacity: 0;
+        
+    }
+    
+    50%{
+        
+    opacity: 0;
+    }
+    
+    75%{
+      opacity: 0;
+    }
+   
+    100%{
+       opacity: 0;
+    }
+
+}
+@keyframes bodyillus{
+    0%{
+      
+       opacity: 0;
+       
+    }
+    25%{
+      opacity: 0;
+        
+    }
+    
+    50%{
+        
+    opacity: 0;
+    }
+    
+    75%{
+      opacity: 0;
+    }
+   
+    100%{
+       opacity: 0;
+    }
+}
+    @keyframes pillus{
+        0%{
+          
+           opacity: 0;
+           
+        }
+        25%{
+          opacity: 0;
+            
+        }
+        
+        50%{
+            
+        opacity: 0;
+        }
+        
+        75%{
+          opacity: 0;
+        }
+       
+        100%{
+           opacity: 0;
+        }
+    
+    }
+    @keyframes sectionillus{
+        0%{
+          
+           opacity: 0;
+           
+        }
+        25%{
+          opacity: 0;
+            
+        }
+        
+        50%{
+            
+        opacity: 0;
+        }
+        
+        75%{
+          opacity: 0;
+        }
+       
+        100%{
+           opacity: 0;
+        }
+    
+    }
+
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+
+}
+.code-illus{
+    background-color: transparent;
+   
+}
+@media screen and (max-width:1024px){
+
+    .circleDiv{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0rem auto;
+   
+   height: 100%;
+  
+  
+   
+}
+.navheader{
+    height: auto;
+   position: fixed;
+   top: 0;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid rgb(151, 148, 148);
+   height: 15vh;
+   z-index: 10000;
+    
+}
+.Navbar div{
+    background-color: rgb(53, 51, 51);
+    margin: 2rem;
+}
+.midnavbar ul{
+    display: flex;
+    justify-content: space-between;
+   cursor: pointer;
+  
+   
+  
+}
+.midnavbar li{
+    list-style: none;
+    margin-right: 2rem;
+    color: rgb(151, 148, 148);
+    transition: all 0.3s linear;
+    
+}
+.midnavbar li:hover{
+    color: teal;
+    transform: scale(0.98);
+}
+.mobile-contact-button{
+    display: none;
+}
+.barandcross{
+    display: none ;
+}
+
+.midnavbar-mobile{
+    display: none;
+}
+.contact-button button{
+   cursor: pointer;
+   color: rgb(151, 148, 148);
+   height: 40px;
+   width: 100px;
+   
+}
+.logo{
+    color: rgb(151, 148, 148); 
+}
+
+
+@media screen and (max-width:1024px) {
+    .midnavbar ul{
+        flex-direction: column;
+     
+    }
+    .contact-button{
+        display: none;
+    }
+    .mobile-contact-button{
+        display: inline-block;
+    }
+    .open-dropdown{
+        display: inline-block;
+    }
+    .midnavbar-mobile {
+        display:inline-block;
+        margin: 2rem auto;
+        background-color: rgb(53, 51, 51);
+        width: 100%;
+        z-index: 1000;
+        
+      
+        
+    }
+    
+    
+    .midnavbar-mobile li{
+        list-style: none;
+        margin-bottom: 1rem;
+        color: rgb(151, 148, 148);
+        transition: all 20s linear;
+       
+        
+       
+       
+    }
+    
+    .midnavbar{
+        display: none;
+    
+    }
+    .barandcross{
+        display: inline-block ;
+    }
+    .option:hover{
+        transform: scale(0.9) ;
+    }
+    .option{
+        color: white;
+        cursor: pointer;
+        transform: scale(0.9);
+    }
+  
+    
+}
