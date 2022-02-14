@@ -13,15 +13,12 @@ function Home (){
            <p className="job">Front-end Web Developer</p>
            <p className="likes">Passionate about coding. </p>
            </div>
-          <div className="circleDiv">
-           <div className="circle">
-               <code className="code-illus-div">&lt;div&gt; &lt;/div&gt;</code>
-               <code className="code-illus-sec">&lt;section&gt; &lt;/section&gt;</code>
-               <code className="code-illus-p">&lt;p&gt; &lt;/p&gt;</code>
-               <code className="code-illus-body">&lt;body&gt; &lt;/body&gt;</code>
-              
-           </div>
-           </div>
+        <div className="circleDiv">
+
+            <button>Contact </button>
+          
+           </div> 
+           
            </div>
         </div>
     )

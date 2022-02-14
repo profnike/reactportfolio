@@ -38,9 +38,9 @@ function Navbar(){
                   
                 </ul>
               </div>
-              <div className="contact-button">
+              {/* <div className="contact-button">
                 <button>Contact </button>
-              </div>
+              </div> */}
               <div className="barandcross">
               <div className="option open-dropdown" style={openbar}  onClick={open}>Open</div>
               <div className="option close-dropdown" style={closebar} onClick={close}>Close</div>
