@@ -7,7 +7,7 @@
    justify-content: space-between;
    align-items: center;
    margin: 0rem auto;
-   
+   background-color: rgb(53, 51, 51);
    height: 100%;
   
   
@@ -41,11 +41,11 @@
     margin-right: 5rem;
     color: rgb(151, 148, 148);
     transition: all 0.3s linear;
-    
+    font-size: 1.1rem;
 }
 .midnavbar li:hover{
-    color: teal;
-    transform: scale(0.98);
+    color: rgb(54, 153, 153);
+    transform: scale(0.9);
 }
 .mobile-contact-button{
     display: none;

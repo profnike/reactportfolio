@@ -5,7 +5,7 @@ import '../Home/Home.css'
 function Home (){
     return(
         <div className="home">
-         <Navbar/>
+         <Navbar homepage={{color:"teal"}}/>
          <div className="homebody">
            <div className="homebody-left">
            <h1>Hi,</h1>

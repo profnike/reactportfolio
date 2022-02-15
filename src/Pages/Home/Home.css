@@ -1,16 +1,22 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(53, 51, 51);
+   
 }
 .home h1{
     color: rgb(151, 148, 148);  
+}
+body{
+    background-color: rgb(53, 51, 51);
 }
 
 .homebody h1{
  color: white;
   font-size: 5rem; 
  
+}
+.home{
+    background-color: rgb(53, 51, 51);
 }
 .homebody h2{
     font-size: 5rem;
