@@ -9,7 +9,7 @@
    margin: 0rem auto;
    background-color: rgb(53, 51, 51);
    height: 100%;
-  
+    
   
    
 }
@@ -19,6 +19,7 @@
    top: 0;
     width: 100%;
     margin: auto;
+    margin: 0;
     border-bottom: 1px solid rgb(151, 148, 148);
    height: 15vh;
    z-index: 10000;
@@ -38,7 +39,7 @@
 }
 .midnavbar li{
     list-style: none;
-    margin-right: 5rem;
+    margin-left: 5rem;
     color: rgb(151, 148, 148);
     transition: all 0.3s linear;
     font-size: 1.1rem;
@@ -88,7 +89,7 @@
         margin: 2rem auto;
         background-color: rgb(53, 51, 51);
         width: 100%;
-        z-index: 1000;
+        z-index: 10000;
         
       
         

@@ -3,7 +3,7 @@ import '../Navbar/Navbar.css'
 
 
 
-function Navbar({aboutpage,homepage}){
+function Navbar({aboutpage,homepage,skillpage}){
     const [openbar,setOpenbar]=useState({display:"inline"})
     const [closebar,setClosebar]=useState({display:"none"})
     const [dropdownUl,setDropdownUl]=useState({display:"none"})
@@ -32,7 +32,7 @@ function Navbar({aboutpage,homepage}){
                 <ul>
                     <li style={homepage}>Home</li>
                     <li style={aboutpage}>About</li>
-                    <li>Skills</li>
+                    <li style={skillpage}>Skills</li>
                     <li>Projects</li>
                     <button className="mobile-contact-button">Contact</button>
                   
