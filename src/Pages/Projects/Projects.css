@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer-project{
+    margin-top: 20vh;
+
+}
+.outer-project h2{
+    color: teal;
+}
+.projectbody{
+   
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    
+}
+.project-box{
+    width: 300px;
+    min-height: 400px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 10px 10px  rgb(0 0 0/ 15%);
+    margin-top: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s linear;
+    text-align: left;
+    
+}
+.project-box p{
+    margin-left: 20px;
+}
+.project-box h4{
+    color: teal;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.project-box::before{
+    content: "";
+   
+    width: 0;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.4s linear;
+}
+.project-box:hover::before{
+    content: "";
+    width: 100%;
+height: 3px;
+background-color: rgb(4, 80, 80);
+z-index: 100;
+
+}
+.project-box:hover{
+    transform:scale(0.9) ;
+}
+
+
+.project-image-div{
+   width: 100%;
+   height: 200px;
+   border-top: 1.5px solid rgb(46, 70, 70);
+   border-bottom: 1.5px solid rgb(46, 70, 70);
+   margin-bottom: 10px;
+}
+.project-image-div img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.content-parag{
+    margin-top: 30px;
+    color: rgb(5, 196, 196);
+   
+}
+@media screen and (min-width:700px) {
+    .projectbody{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        /* margin-top: 50px; */
+    }
+}

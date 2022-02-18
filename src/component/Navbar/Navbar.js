@@ -1,25 +1,29 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import '../Navbar/Navbar.css'
 
 
 
-function Navbar({aboutpage,homepage,skillpage}){
+function Navbar({aboutpage,homepage,skillpage,projectpage}){
     const [openbar,setOpenbar]=useState({display:"inline"})
     const [closebar,setClosebar]=useState({display:"none"})
     const [dropdownUl,setDropdownUl]=useState({display:"none"})
     
     //if( window.innerWidth<= 1024){
-        
+        let number=0.3
+        let a="all"
+        let lin="linear"
+      let  trans= number+ 's' 
    
     function open(){
         setClosebar({display:"inline"})
         setOpenbar({display:'none'})
-        setDropdownUl({display:"inline"})
+        setDropdownUl({display:"block",transition:trans})
     }
     function close(){
         setOpenbar({display:'inline'})
         setClosebar({display:"none"})
-        setDropdownUl({display:"none"})
+        setDropdownUl({display:"none",transition:"all 0.3s linear",backgroundColor:"green"})
     }
 //}
     return(
@@ -30,10 +34,10 @@ function Navbar({aboutpage,homepage,skillpage}){
                 </div>
                 <div className="midnavbar">
                 <ul>
-                    <li style={homepage}>Home</li>
-                    <li style={aboutpage}>About</li>
-                    <li style={skillpage}>Skills</li>
-                    <li>Projects</li>
+                <Link className="link" to="/"> <li style={homepage}>Home</li></Link>
+                <Link className="link" to="/about"> <li style={aboutpage}>About</li></Link>
+                <Link className="link" to="/skills">   <li style={skillpage}>Skills</li></Link>
+                <Link className="link" to="/projects">  <li style={projectpage}>Projects</li></Link>
                     <button className="mobile-contact-button">Contact</button>
                   
                 </ul>
@@ -47,11 +51,11 @@ function Navbar({aboutpage,homepage,skillpage}){
               </div>
         </div>
         <div className="midnavbar-mobile" >
-                <ul style={dropdownUl}>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
+                <ul style={dropdownUl} >
+                   <Link className="link" to="/"> <li style={homepage}>Home</li></Link>
+                   <Link className="link" to="/about"> <li style={aboutpage}>About</li></Link>
+                   <Link className="link" to="/skills"> <li style={skillpage}>Skills</li></Link>
+                   <Link  className="link" to="/projects"> <li style={projectpage}>Projects</li></Link>
                     <button className="mobile-contact-button">Contact</button>
                   
                 </ul>

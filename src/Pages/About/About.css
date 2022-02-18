@@ -7,10 +7,14 @@
 .about{
   display: flex;
   flex-direction: column;
-    margin-top: 25vh;
+    margin-top: 20vh;
     align-items: center;
     background-color: rgb(53, 51, 51);
     padding-bottom: 150px;
+}
+.about h2{
+    color: teal;
+    margin-bottom: 60px;
 }
 .inner-about{
     margin: 0 auto;
@@ -33,7 +37,7 @@
    
     background-color: rgb(2, 68, 68);
     transform: rotate(-45deg);
-    animation: turn 13s 1 forwards ;
+    animation: turn 8s 1 forwards ;
     transform-style: preserve-3d;
     font-size: 140px;
     color: black;

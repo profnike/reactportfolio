@@ -14,7 +14,9 @@ function About (){
         <div className="about">
          <Navbar aboutpage={{color:"teal"}}/>
          <div className="inner-about">
+         <h2>ABOUT</h2>
          <div className="frame">
+        
         <div className="try">
          <p className="front">?</p> 
          <div  className="back">

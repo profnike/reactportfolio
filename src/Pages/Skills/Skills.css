@@ -180,6 +180,27 @@ opacity: 0.6;
         transform: translateX(0px);
     }
 }
+.anim-seventh{
+    opacity: 0;
+    transform: translateX(-70px);
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: style-seventh 2s ease-in-out 6s forwards;
+}
+@keyframes style-seventh{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    75%{
+opacity: 0.6;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
 
 
 @media screen and (min-width:1001px) {

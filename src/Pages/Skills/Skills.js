@@ -3,6 +3,7 @@ import html from '../../Asset/html image.png'
 import css from '../../Asset/css-image.png'
 import javascript from '../../Asset/javascript-icon.png'
 import react from '../../Asset/react-icon.png'
+import redux from '../../Asset/redux-icon.png'
 import github from '../../Asset/github-icons.png'
 import '../Skills/Skills.css'
 
@@ -34,6 +35,10 @@ function Skills (){
                  <p>REACTjs</p>
              </div>
              <div className="innerskill anim-sixth">
+                 <div className="skill-image"><img src={redux} alt=""/></div>
+                 <p>REDUX</p>
+             </div>
+             <div className="innerskill anim-seventh">
                  <div className="skill-image"><img src={github} alt=""/></div>
                  <p>GITHUB</p>
              </div>
