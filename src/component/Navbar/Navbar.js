@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import '../Navbar/Navbar.css'
 
 
 
-function Navbar({aboutpage,homepage,skillpage,projectpage}){
+function Navbar({aboutpage,homepage,skillpage,projectpage,contactpage}){
+    const navigate=useNavigate()
     const [openbar,setOpenbar]=useState({display:"inline"})
     const [closebar,setClosebar]=useState({display:"none"})
     const [dropdownUl,setDropdownUl]=useState({display:"none"})
@@ -38,7 +40,7 @@ function Navbar({aboutpage,homepage,skillpage,projectpage}){
                 <Link className="link" to="/about"> <li style={aboutpage}>About</li></Link>
                 <Link className="link" to="/skills">   <li style={skillpage}>Skills</li></Link>
                 <Link className="link" to="/projects">  <li style={projectpage}>Projects</li></Link>
-                    <button className="mobile-contact-button">Contact</button>
+                    {/* <button className="mobile-contact-button">Contact me</button> */}
                   
                 </ul>
               </div>
@@ -56,7 +58,7 @@ function Navbar({aboutpage,homepage,skillpage,projectpage}){
                    <Link className="link" to="/about"> <li style={aboutpage}>About</li></Link>
                    <Link className="link" to="/skills"> <li style={skillpage}>Skills</li></Link>
                    <Link  className="link" to="/projects"> <li style={projectpage}>Projects</li></Link>
-                    <button className="mobile-contact-button">Contact</button>
+                    <button onClick={(()=>{navigate("/Contact")})} style={contactpage} className="mobile-contact-button">Contact</button>
                   
                 </ul>
               </div>

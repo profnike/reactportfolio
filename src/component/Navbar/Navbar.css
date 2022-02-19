@@ -85,6 +85,13 @@
     }
     .mobile-contact-button{
         display: inline-block;
+        width: 100px;
+        height: 40px;
+        border: 2px solid teal;
+        background-color: white;
+        color: teal;
+        border-radius: 6px;
+        font-size: 1rem;
     }
     .open-dropdown{
         display: inline-block;
@@ -92,11 +99,12 @@
     .midnavbar-mobile {
         display:inline-block;
         margin: 2rem auto;
+      /* padding-top: 1rem; */
         background-color: rgb(53, 51, 51);
         width: 100%;
-        z-index: 10000;
-       
-        transition: all 10s linear;
+        z-index: 1000000;
+       /* background-color: red; */
+        /* transition: all 10s linear; */
       
     }
     .midnavbar-mobile ul{
