@@ -49,7 +49,7 @@ function Contact (){
                  <button className="info-button" onClick={(()=>{setInfo({display:"none"})})}>Ok</button>
              </div>
            <h2>Contact me</h2>
-           <p>i am open to all kinds of amazing opportunities and will love to take part
+           <p>I am open to all kinds of amazing opportunities and will love to take part
                 in mind-blowing projects.</p>
                 <form ref={form} onSubmit={sendEmail}>
                 <div className="contact-input-div">
@@ -61,7 +61,7 @@ function Contact (){
                 <div className="contact-input-div">
                 <input type="text" placeholder="Subject" name="subject" onFocus={(()=>{setInfo({display:"none"})})}  />
                 </div>
-                <textarea className="contact-input-div textarea" placeholder="Send a amessage" name="message" onFocus={(()=>{setInfo({display:"none"})})} required/>
+                <textarea className="contact-input-div textarea" placeholder="Compose" name="message" onFocus={(()=>{setInfo({display:"none"})})} required/>
                 <button type="submit" className="contact-submit-button">Submit</button>
                 </form>
                 <div className="contact-socials">

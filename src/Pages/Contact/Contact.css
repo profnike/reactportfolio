@@ -108,6 +108,9 @@ input:-webkit-autofill:active{
     float: right;
     margin-top: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
 }
 .info-alert{
    
@@ -115,6 +118,7 @@ input:-webkit-autofill:active{
     top: 0;
     left: 0;
     right: 0;
+    
 }
 
 @media screen and (max-width:900px) {
@@ -125,7 +129,7 @@ input:-webkit-autofill:active{
         flex-direction: column;
     }
     .inner-contact-socials{
-        width: 200px;
+        width: 100%;
         margin-top: 30px;
         padding: 1rem 2rem;
     }
