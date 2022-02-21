@@ -1,8 +1,11 @@
+import { Navigate } from 'react-router-dom'
 import Navbar from '../../component/Navbar/Navbar'
+import { useNavigate } from 'react-router-dom'
 import '../Home/Home.css'
 
 
 function Home (){
+    const navigate=useNavigate()
     return(
         <div className="home">
          <Navbar homepage={{color:"teal"}}/>
@@ -15,7 +18,7 @@ function Home (){
            </div>
         <div className="circleDiv">
 
-            <button>Contact </button>
+            <button onClick={(()=>{navigate("/Contact")})}>Contact </button>
           
            </div> 
            

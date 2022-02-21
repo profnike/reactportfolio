@@ -9,7 +9,7 @@
    margin: 0rem auto;
    background-color: rgb(53, 51, 51);
    height: 100%;
-    
+  
   
    
 }
@@ -28,6 +28,7 @@
 .link{
     list-style: none;
     text-decoration: none;
+  
 }
 .Navbar div{
     background-color: rgb(53, 51, 51);
@@ -41,14 +42,27 @@
    
   
 }
+.navicon{
+    width: 20px;
+    height: 20px;
+    margin-right: 0.4rem;
+    
+}
+
 .midnavbar li{
     list-style: none;
     margin-left: 4rem;
     color: rgb(151, 148, 148);
     transition: all 0.3s linear;
     font-size: 1rem;
-  
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+   
+    
+    list-style: none;
 }
+
 .midnavbar li:hover{
     color: rgb(54, 153, 153);
     transform: scale(0.9);
@@ -73,8 +87,18 @@
 .logo{
     color: rgb(151, 148, 148); 
 }
+.home-icon{
+    color: green;
+    color: white;
+    
+}
 
-
+.logoicon{
+    background: linear-gradient(rgb(71, 223, 223),white);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
 @media screen and (max-width:1024px) {
     .midnavbar ul{
         flex-direction: column;
@@ -92,6 +116,7 @@
         color: teal;
         border-radius: 6px;
         font-size: 1rem;
+        margin-bottom: 30px;
     }
     .open-dropdown{
         display: inline-block;
@@ -107,12 +132,32 @@
         /* transition: all 10s linear; */
       
     }
+    .midnavbar-mobile li{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+     
+       width: 40%;
+       margin: 0 auto;
+    }
+    .midnavbar-mobile li img{
+        margin-left: 40px;
+    }
+    .midnavbar-mobile li p{
+        margin-left: 10px;
+    }
     .midnavbar-mobile ul{
         transition: all 0.3s ease-in-out;
         transform: translateY(-70px);
       
         animation: navbar 0.4s ease-in-out forwards
         /* transform: rotate(15deg); */
+    }
+    .ham{
+        background-color: white;
+        width: 25px;
+        height: 25px;
+        margin: 0;
     }
     @keyframes navbar{
         0%{
@@ -144,15 +189,21 @@
     
     }
     .barandcross{
-        display: inline-block ;
+        display: flex ;
+        justify-content: space-around;
+        
+      
+       width: 30px;
+      
     }
     .option:hover{
         transform: scale(0.9) ;
     }
     .option{
-        color: white;
+       
         cursor: pointer;
         transform: scale(0.9);
+       
     }
   
     

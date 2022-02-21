@@ -1,4 +1,5 @@
 import Navbar from '../../component/Navbar/Navbar'
+
 import covid from '../../Asset/Covidpics.PNG'
 import flex from '../../Asset/Flex.PNG'
 import zara from '../../Asset/Zara.PNG'
@@ -14,7 +15,7 @@ function Projects (){
          <h2>PROJECTS</h2>
          <div className="projectbody">
         
-            <div className="project-box">
+           <a className="projectlink-style" href="https://profnike.github.io/covidpage"> <div className="project-box">
                 <div className="project-image-div">
                        <img src={covid} alt=""/>
                 </div>
@@ -23,7 +24,8 @@ function Projects (){
                      this disease in various countries across the world.</p>
                 <p className="content-parag">Built with:Html,Css,Bootstrap,Reactjs.</p>    
             </div>
-            <div className="project-box">
+            </a>
+            <a className="projectlink-style" href="https://hardcore-meitner-166493.netlify.app/"><div className="project-box">
                 <div className="project-image-div">
                 <img src={flex} alt=""/>
                 </div>
@@ -32,7 +34,8 @@ function Projects (){
                     subscriptions on just one platform? Flex App is your best answer.</p>
                     <p className="content-parag">Built with:Html,Css,,Reactjs,Redux.</p>    
             </div>
-            <div className="project-box">
+            </a>
+            <a className="projectlink-style" href="https://zarahouse-main.netlify.app/"><div className="project-box">
                 <div className="project-image-div">
                 <img src={zara} alt=""/>
                 </div>
@@ -40,7 +43,9 @@ function Projects (){
                 <p>This is an online store where you get trendy wears. </p>
                 <p className="content-parag">Built with:Html,Css,,Reactjs.</p>    
             </div>
-            <div className="project-box">
+            </a>
+            <a className="projectlink-style" href="https://profnike.github.io/Todo-Javascript/">
+                 <div className="project-box">
                 <div className="project-image-div">
                 <img src={todo} alt=""/>
                 </div>
@@ -49,8 +54,9 @@ function Projects (){
                     This To-do App will greatly help with that</p>
                     <p className="content-parag">Built with:Html,Css,Javascript.</p>    
             </div>
-           
+            </a>
            </div>
+         
         </div>
         </div>
     )
