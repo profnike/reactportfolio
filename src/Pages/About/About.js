@@ -13,7 +13,9 @@ function About (){
     return(
         <div className="about">
          <Navbar aboutpage={{color:"teal"}}/>
+         {/* <Navbar projectpage={{color:"teal"}}/> */}
          <div className="inner-about">
+         
          <h2>ABOUT</h2>
          <div className="frame">
         
@@ -27,6 +29,7 @@ function About (){
         </div>
 
         </div>
+        
         <div className="about-text">
        <p className="div-parag"> I am Onanuga Khadijah, a graduate of Nursing Science from the College of Medicine, University of Lagos. 
         My interest in tech started when I attended a  Lagos state sponsored program. 

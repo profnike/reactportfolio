@@ -24,7 +24,7 @@ function Navbar({aboutpage,homepage,skillpage,projectpage,contactpage}){
     function open(){
         setClosebar({display:"inline"})
         setOpenbar({display:'none'})
-        setDropdownUl({display:"block"})
+        setDropdownUl({display:"inline"})
     }
     function close(){
         setOpenbar({display:'inline'})

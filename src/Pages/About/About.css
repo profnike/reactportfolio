@@ -5,12 +5,11 @@
 
 }
 .about{
-  display: flex;
-  flex-direction: column;
-    margin-top: 20vh;
-    align-items: center;
+  
     background-color: rgb(53, 51, 51);
     padding-bottom: 150px;
+   
+    
 }
 .about h2{
     color: teal;
@@ -18,7 +17,7 @@
 }
 .inner-about{
     margin: 0 auto;
-   
+    margin-top: 20vh;
    width: 100%;
    padding: 0;
     color: white;
@@ -185,7 +184,7 @@
 .about-text{
     width: 80%;
 }
-.about{
+.inner-about{
     margin-top: 15vh;
 }
 }
