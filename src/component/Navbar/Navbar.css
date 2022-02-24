@@ -11,7 +11,7 @@
    height: 100%;
    padding-bottom: 5px; 
    padding-top: 5px;
-  width: 97%;
+  width: 100%;
  
 }
 .navheader{
@@ -36,7 +36,7 @@
 }
 .Navbar div{
     background-color: rgb(53, 51, 51);
-    /* margin: 2rem; */
+    margin: 2rem;
 }
 .midnavbar ul{
     display: flex;
