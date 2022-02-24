@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .outer-project{
-    margin-top: 20vh;
+    margin-top: 15vh;
 
 }
 .outer-project h2{
@@ -94,5 +94,9 @@ z-index: 100;
         align-items: center;
         justify-content: space-between;
         /* margin-top: 50px; */
+    }
+    .outer-project{
+        margin-top: 20vh;
+    
     }
 }

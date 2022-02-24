@@ -124,6 +124,7 @@ input:-webkit-autofill:active{
 @media screen and (max-width:900px) {
     .contactbody{
         width: 90%;
+        margin-top: 15vh;
     }
     .contact-socials{
         flex-direction: column;
@@ -137,5 +138,6 @@ input:-webkit-autofill:active{
         margin-left: 1rem;
 
     }
+   
     
 }

@@ -141,5 +141,7 @@ body{
     .circleDiv{
         display: none;
     }
-    
+    .homebody{
+    margin-top: 20vh;
+    }
 }

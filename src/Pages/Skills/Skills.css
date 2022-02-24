@@ -4,7 +4,7 @@
    box-sizing: border-box;
 }
 .skills{
-    margin-top: 15vh;
+    margin-top: 10vh;
     position: relative;
 }
 .innerskill{
@@ -220,15 +220,23 @@ opacity: 0.6;
       
         font-size: 7rem;
     }
+    .skills{
+        margin-top: 15vh;
+        position: relative;
+    }
    
 }
-    @media   (min-width:501px) and (max-width:1000px){
+    @media   (min-width:501px) and (max-width:900px){
         .innerskill{
             width: 30rem;
             padding-left: 50px;
         height: 60px;
        
 
+        }
+        .skills{
+            margin-top: 10vh;
+            position: relative;
         }
         
         .backg{
