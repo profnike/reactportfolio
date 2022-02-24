@@ -156,8 +156,8 @@
        
        margin: 0 auto;
      
-       
      
+       animation: navbar 0.4s ease-in-out forwards
     }
     
    
@@ -166,12 +166,11 @@
         margin-left: 10px;
         
     }
-    .midnavbar-mobile ul{
+    .navheader .midnavbar-mobile ul{
         transition: all 0.3s ease-in-out;
         transform: translateY(-70px);
-      
-        animation: navbar 0.4s ease-in-out forwards
-        /* transform: rotate(15deg); */
+     
+       
     }
     .ham{
         background-color: white;
