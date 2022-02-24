@@ -48,7 +48,7 @@ function About (){
         <p className="div-parag">I believe in seeking help when needed, which made me enroll into programming schools when I realized 
             I was stuck while learning javascript on my own. That has been a great decision so far  as I didnt just  learn javascript,
              I also learned new things in Html and Css as well  Reactjs(a javascript framework).    </p>
-             <p className="div-parag"> When I am not coding, I am surfing the internet trying to relax . </p>
+             <p className="div-parag"> When I am not coding, I am either teaching, reading orspending time with family . </p>
              </div>
             < div className="remain-button" style={less} onClick={(()=>{setParag({display:"none"});setShow({display:"flex",backgroundColor:"teal",width:"150px"});setLess({display:"none"})})}>
                 <p>Show less</p>
