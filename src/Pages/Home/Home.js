@@ -1,4 +1,4 @@
-import { Navigate } from 'react-router-dom'
+
 import Navbar from '../../component/Navbar/Navbar'
 import { useNavigate } from 'react-router-dom'
 import '../Home/Home.css'
@@ -14,7 +14,7 @@ function Home (){
            <h1>Hi,</h1>
            <h2>I'm Khadijah  </h2>
            <p className="job">Front-end Web Developer</p>
-           <p className="likes">Passionate about coding. </p>
+          <i><p className="likes">Passionate about coding. </p></i> 
            </div>
         <div className="circleDiv">
 
