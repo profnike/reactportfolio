@@ -86,7 +86,7 @@ function Navbar({aboutpage,homepage,skillpage,projectpage,contactpage}){
                    <Link  className="link" to="/projects"> <li style={projectpage}>
                    <img className="navicon" src={project} alt=""/><p>Projects</p>
                        </li></Link>
-                    <button onClick={(()=>{navigate("/Contact")})} style={contactpage} className="mobile-contact-button">Contact</button>
+                    <li><button onClick={(()=>{navigate("/Contact")})} style={contactpage} className="mobile-contact-button">Contact</button></li>
                   
                 </ul>
               </div>

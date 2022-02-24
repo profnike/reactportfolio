@@ -9,7 +9,7 @@
    margin: 0rem auto;
    background-color: rgb(53, 51, 51);
    height: 100%;
-   padding-bottom: 10px; 
+   padding-bottom: 5px; 
    padding-top: 5px;
  
 }
@@ -100,8 +100,14 @@
     height: 50px;
     border-radius: 10px;
 }
-@media screen and (max-width:1024px) {
-    
+@media screen and (max-width:900px) {
+    .logoicon{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .navheader{
+        height: 10vh;
+    }
     .midnavbar ul{
         flex-direction: column;
      
@@ -111,7 +117,8 @@
     }
     .mobile-contact-button{
         display: inline-block;
-        width: 100px;
+        min-width: 100px;
+        max-width: 100px;
         height: 40px;
         border: 2px solid teal;
         background-color: white;
@@ -139,16 +146,29 @@
     .midnavbar-mobile li{
         display: flex;
         align-items: center;
+       
         justify-content: flex-start;
+    width: 17%;
+       
+       margin: 0 auto;
      
+       
+     
+    }
+    
+    .midnavbar-mobile lis{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+       
        width: 50%;
        margin: 0 auto;
     }
-    .midnavbar-mobile li img{
-        margin-left: 40px;
-    }
+   
     .midnavbar-mobile li p{
         margin-left: 10px;
+        
     }
     .midnavbar-mobile ul{
         transition: all 0.3s ease-in-out;
