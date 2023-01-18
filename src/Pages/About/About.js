@@ -22,9 +22,11 @@ function About (){
         <div className="try">
          <p className="front">?</p> 
          <div  className="back">
-         <div className="hey-frame">
+            ?
+         {/* <div className="hey-frame">
          <img src={profile} alt=""/>
-         </div>
+         
+         </div> */}
         </div>
         </div>
 
