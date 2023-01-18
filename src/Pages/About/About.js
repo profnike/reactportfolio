@@ -1,6 +1,6 @@
 import Navbar from '../../component/Navbar/Navbar'
 import { useState } from 'react'
-import profile from '../../Asset/profile-img.jpg'
+// import profile from '../../Asset/profile-img.jpg'
 import '../About/About.css'
 
 
