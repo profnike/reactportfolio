@@ -1,6 +1,6 @@
 import Navbar from '../../component/Navbar/Navbar'
 import { useState } from 'react'
-import profile from '../../Asset/profile-img.jpg'
+// import profile from '../../Asset/profile-img.jpg'
 import '../About/About.css'
 
 
@@ -22,9 +22,11 @@ function About (){
         <div className="try">
          <p className="front">?</p> 
          <div  className="back">
-         <div className="hey-frame">
+            ?
+         {/* <div className="hey-frame">
          <img src={profile} alt=""/>
-         </div>
+         
+         </div> */}
         </div>
         </div>
 

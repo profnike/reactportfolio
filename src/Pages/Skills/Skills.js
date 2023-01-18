@@ -5,6 +5,8 @@ import javascript from '../../Asset/javascript-icon.png'
 import react from '../../Asset/react-icon.png'
 import redux from '../../Asset/redux-icon.png'
 import github from '../../Asset/github-icons.png'
+import tailwind from '../../Asset/tailwind-image.png'
+import next from '../../Asset/next.png'
 import '../Skills/Skills.css'
 
 
@@ -19,16 +21,25 @@ function Skills (){
              </p>
              <h2 className=" anim-first">TECHNICAL SKILLS</h2>
              <div className="innerskill anim-second">
-                 <div className="skill-image"><img src={html} alt=""/></div>
+                 <div className="skill-image"><img  src={html} alt=""/></div>
                  <p>HTML</p>
              </div>
              <div className="innerskill anim-third">
                  <div className="skill-image"><img src={css} alt=""/></div>
                  <p>CSS</p>
              </div>
+             <div className="innerskill anim-third">
+                 <div className="skill-image"><img src={tailwind} alt=""/></div>
+                 <p>TAILWIND CSS</p>
+             </div>
+             
              <div className="innerskill anim-fourth">
                  <div className="skill-image"><img src={javascript} alt=""/></div>
                  <p>JAVASCRIPT</p>
+             </div>
+             <div className="innerskill anim-fourth">
+                 <div className="skill-image"><img src={next} alt=""/></div>
+                 <p>NEXTjs</p>
              </div>
              <div className="innerskill anim-fifth">
                  <div className="skill-image"><img src={react} alt=""/></div>

@@ -1,9 +1,9 @@
 import Navbar from '../../component/Navbar/Navbar'
-
 import covid from '../../Asset/Covidpics.PNG'
-import flex from '../../Asset/Flex.PNG'
-import zara from '../../Asset/Zara.PNG'
+// import flex from '../../Asset/Flex.PNG'
+// import zara from '../../Asset/Zara.PNG'
 import todo from '../../Asset/todo.PNG'
+import jumia from '../../Asset/jumia-pix.PNG'
 import '../Projects/Projects.css'
 
 
@@ -14,6 +14,17 @@ function Projects (){
          <div className="outer-project">
          <h2>PROJECTS</h2>
          <div className="projectbody">
+         <a className="projectlink-style" href=" https://jumiaclone-khadijah.netlify.app/">
+                 <div className="project-box">
+                <div className="project-image-div">
+                <img src={jumia} alt=""/>
+                </div>
+                <h4>Jumia Clone</h4>
+                <p>This is a clone of the jumia-app where you can view items,add to cart and purchase them. 
+                    </p>
+                    <p className="content-parag">Built with:Html,Css,Javascript,Context and Redux.</p>    
+            </div>
+            </a>
         
            <a className="projectlink-style" href="https://profnike.github.io/covidpage"> <div className="project-box">
                 <div className="project-image-div">
@@ -25,7 +36,7 @@ function Projects (){
                 <p className="content-parag">Built with:Html,Css,Bootstrap and Reactjs.</p>    
             </div>
             </a>
-            <a className="projectlink-style" href="https://hardcore-meitner-166493.netlify.app/"><div className="project-box">
+            {/* <a className="projectlink-style" href="https://hardcore-meitner-166493.netlify.app/"><div className="project-box">
                 <div className="project-image-div">
                 <img src={flex} alt=""/>
                 </div>
@@ -34,8 +45,8 @@ function Projects (){
                     subscriptions on just one platform? Flex App is your best answer.</p>
                     <p className="content-parag">Built with:Html,Css,Reactjs and Redux.</p>    
             </div>
-            </a>
-            <a className="projectlink-style" href="https://zarahouse-main.netlify.app/"><div className="project-box">
+            </a> */}
+            {/* <a className="projectlink-style" href="https://zarahouse-main.netlify.app/"><div className="project-box">
                 <div className="project-image-div">
                 <img src={zara} alt=""/>
                 </div>
@@ -43,7 +54,8 @@ function Projects (){
                 <p>This is an online store where you get trendy wears. </p>
                 <p className="content-parag">Built with:Html,Css and Reactjs.</p>    
             </div>
-            </a>
+            </a> */}
+           
             <a className="projectlink-style" href="https://profnike.github.io/Todo-Javascript/">
                  <div className="project-box">
                 <div className="project-image-div">
@@ -51,10 +63,12 @@ function Projects (){
                 </div>
                 <h4>To-do App</h4>
                 <p>Creating a list of things we intend to do helps us to be more organized. 
-                    This To-do App will greatly help with that</p>
+                    This To-do App will greatly help with that.</p>
                     <p className="content-parag">Built with:Html,Css and Javascript.</p>    
             </div>
             </a>
+
+           
            </div>
          
         </div>

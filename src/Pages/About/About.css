@@ -71,7 +71,7 @@
     transform: rotateY(180deg);
     position: absolute;
     backface-visibility: hidden;
-    color: green;
+    color: black;
     animation: turns 2.5s  infinite;
    
 }
