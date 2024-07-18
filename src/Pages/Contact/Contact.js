@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import Navbar from '../../component/Navbar/Navbar'
 import linkedin from '../../Asset/linkediniconn.png'
 import { useState } from 'react';
-import emailjs from '@emailjs/browser';
 import github from '../../Asset/github-icons.png'
 import '../Contact/Contact.css'
 
@@ -18,27 +17,7 @@ function Contact (){
        
             window.scrollTo({top:0, behavior:'smooth'})
         }
-    const sendEmail = (e) => {
-        e.preventDefault();
-        Goup()
-        emailjs.sendForm('gmail', 'template_zv8b0a6', form.current, 'user_41EteRPUSXus5WL68sEW4')
-          .then((result) => {
-              console.log(result.text);
-              setMessage("Message sent successfully")
-              setInfo({display:"block",alignItems:"center",
-              justifyContent:"center",backgroundColor:"teal",
-              width:"250px",padding:"10px",color:"black",height:"80px",
-              margin:"0 auto",marginBottom:"50px",position:"absolute"})
-          }, (error) => {
-              console.log(error.text);
-              setInfo({display:"block",alignItems:"center",
-              justifyContent:"center",backgroundColor:"teal",
-              width:"250px",padding:"10px",paddingTop:"10px",paddingBottom:"10px",color:"black",height:"80px",
-              margin:"0 auto",marginBottom:"50px",position:"absolute",zIndex:"100000"})
-              setMessage("oops something went wrong")
-          });
-          e.target.reset()
-      };
+    
    
     return(
         <div className="contact">
@@ -51,7 +30,8 @@ function Contact (){
            <h2>Contact me</h2>
            <p>I am open to all kinds of amazing opportunities and will love to take part
                 in mind-blowing projects.</p>
-                <form ref={form} onSubmit={sendEmail}>
+                {/* <form ref={form} onSubmit={sendEmail}> */}
+                <form ref={form} >
                 <div className="contact-input-div">
                 <input type="text" placeholder="Name" name="name" onFocus={(()=>{setInfo({display:"none"})})} required />
                 </div>
